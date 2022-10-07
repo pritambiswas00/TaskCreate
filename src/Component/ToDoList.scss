@@ -1,0 +1,24 @@
+
+.toDoList{
+     width: 50%;
+     margin: 10px auto;
+     display: flex;
+     flex-direction: column;
+     li{
+        list-style: none;
+        width: inherit;
+        min-width: 50px;
+        border: 2px solid rgb(165, 61, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 2px auto;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        &:hover{
+           background-color: rgb(165, 61, 255);
+        }    
+     }
+}
