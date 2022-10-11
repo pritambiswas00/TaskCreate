@@ -1,0 +1,12 @@
+.canvas{
+    display: flex;
+    justify-content: center;
+    .wrapper{
+        position:absolute;
+        width: 100%;
+    }
+    .canvas-inner{
+        z-index: 5;
+    }
+    
+}
