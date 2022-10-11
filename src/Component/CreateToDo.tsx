@@ -40,6 +40,7 @@ const CreateToDo: React.FC<Props> = (props) => {
     }
   };
   return (
+    <div className="create-todo">
     <form className="createForm" onSubmit={formSubmitV2}>
       <label htmlFor="todo">Create Task</label>
       <input
@@ -56,6 +57,7 @@ const CreateToDo: React.FC<Props> = (props) => {
       />
       <button>Save</button>
     </form>
+    </div>
   );
 };
 

@@ -31,6 +31,10 @@ export const users = createSlice({
         },
         addPost: (state:User, action:PayloadAction<Post>)=>{
              state.userPost.posts.unshift(action.payload);
+        },
+        deletePost:(state:User, action:PayloadAction<number>)=>{
+            console.log(action, "DLEELEEL")
+             state.userPost.posts.filter((post:Post)=>post.id!==action.payload)
         }
     },
     extraReducers: (builder)=>{

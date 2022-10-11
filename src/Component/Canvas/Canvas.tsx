@@ -57,7 +57,7 @@ const Canvas: React.FC<Props> = (props) => {
   },);
   return (
       <div className="canvas">
-      <canvas width={"32px"} height={"32px"} ref={canvasRef} className="wrapper"/>
+      <canvas width={"25px"} height={"38px"} ref={canvasRef} className="wrapper"/>
        <div className="canvas-inner">
        {props.children}
        </div>
